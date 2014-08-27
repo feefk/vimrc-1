@@ -1,0 +1,46 @@
+zc 折叠当前marker
+zo 展开当前marker
+zC 在所在范围内，递归折叠所有
+zO 在所在范围内，递归展开所有
+
+
+" ---------- a.vim [自动切换C/C++同名头文件] ----------
+"
+" :A                         --切换同名头文件并独占整个屏幕
+" :AS                        --切换同名头文件并垂直分屏，头文件在上
+" :AV                        --切换同名头文件并水平分割，头文件在左
+
+
+Ctrl-W s for horizontal splitting
+Ctrl-W v for vertical splitting
+Ctrl-w q to close one
+:sp filename for a horizontal split
+:vsp filename or :vs filename for a vertical split
+
+
+Ctrl-O to jump back to previous locations 
+Ctrl-I to jump forwards again.
+
+
+:tabe <filepath>
+:new <filepath>
+:edit <filepath>
+
+#nerdtree
+gt = next tab
+gT = previous tab
+
+" register
+"
+ If you want to copy the current line into register k, you can type
+ "kyy
+ Or you can append to a register by using a capital letter
+ "Kyy
+ You can then move through the document and paste it elsewhere using
+ "kp
+ To access all currently defined registers type
+ :reg
+
+把剪切板的内容粘贴进来
+"+p
+如果没有"+或着"*，需要安装vim-gnome
